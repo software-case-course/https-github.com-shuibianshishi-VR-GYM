@@ -1,4 +1,4 @@
-package com.asha.md360player4android;
+﻿package com.asha.md360player4android;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -14,6 +14,7 @@ import java.net.URL;
  */
 public class ADInfo {
     String ulr;
+int test；
     ImageView view ;
     static String TAG;
     public void setUrl(String ulr){
