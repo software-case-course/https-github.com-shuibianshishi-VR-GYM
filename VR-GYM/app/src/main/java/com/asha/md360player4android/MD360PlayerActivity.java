@@ -3,35 +3,31 @@ package com.asha.md360player4android;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.SparseArray;
-import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.SeekBar;
-import android.widget.TextView;
 import android.widget.ToggleButton;
 
+import com.asha.md360player4android.MDHoverView.HoverView;
 import com.asha.vrlib.MDVRLibrary;
 import com.asha.vrlib.model.MDPosition;
-import com.asha.vrlib.plugins.IMDHotspot;
+import com.asha.vrlib.model.MDViewBuilder;
 import com.asha.vrlib.plugins.MDAbsPlugin;
+import com.asha.vrlib.plugins.hotspot.MDAbsView;
+import com.asha.vrlib.plugins.hotspot.MDView;
 import com.asha.vrlib.texture.MD360BitmapTexture;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Locale;
-
-import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 
 /**
  * using MD360Renderer
@@ -48,20 +44,18 @@ public abstract class MD360PlayerActivity extends Activity {
     private static final SparseArray<String> sProjectionMode = new SparseArray<>();
     private static final SparseArray<String> sAntiDistortion = new SparseArray<>();
 
-
+    RelativeLayout activity_rlToolbar;
     ImageView fullVedio;
     RelativeLayout video_tool_rlPlayProg;//进度控制
-    private SeekBar processSeekBar;                    // 播放进度条
-    private TextView currTimeText;                  // 当前播放时间
-    private TextView totalTimeText;             // 时间总长度
-    private ToggleButton playBtn;        // 启动、暂停按钮
 
-    ToggleButton video_tool_tbtnGyro,video_tool_tbtnVR;//遥感控制、分屏控制
+    ToggleButton video_tool_tbtnGyro,video_tool_tbtnVR,video_tool_tbtnPlayPause;//遥感控制、分屏控制,播放、暂停控制
     Boolean IsVertical=true;//竖屏
     Boolean IstbtnGyro=true;//遥感，false 为触屏
     Boolean IstbtnVR=true;//true 分屏, false 为全屏
+    Boolean IsStart=true; // false 为视频暂停， true 为视频播放中
 
     LinearLayout vedio_view;
+    ImageView video_back_btn;
 
     int vedio_view_height=400;
 
@@ -139,6 +133,7 @@ public abstract class MD360PlayerActivity extends Activity {
 
         video_tool_rlPlayProg=(RelativeLayout)findViewById(R.id.video_tool_rlPlayProg);
         vedio_view = (LinearLayout)findViewById(R.id.activity_md_using_surface_view);
+        video_tool_tbtnPlayPause=(ToggleButton)findViewById(R.id. video_tool_tbtnPlayPause) ;
         video_tool_tbtnGyro=(ToggleButton)findViewById(R.id.video_tool_tbtnGyro);
         video_tool_tbtnVR=(ToggleButton)findViewById(R.id.video_tool_tbtnVR);
         video_tool_tbtnVR.setVisibility(View.GONE);
@@ -149,25 +144,9 @@ public abstract class MD360PlayerActivity extends Activity {
         playParams.addRule(RelativeLayout.LEFT_OF, R.id.video_tool_imgFullscreen);
         video_tool_rlPlayProg.setLayoutParams(playParams);
 
-        fullVedio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(IsVertical) {
-                    LinearLayout.LayoutParams linearParams = (LinearLayout.LayoutParams) vedio_view.getLayoutParams();
-                    linearParams.height = MATCH_PARENT;
-                    vedio_view_height = vedio_view.getHeight();
-                    vedio_view.setLayoutParams(linearParams);
-                    IsVertical = false;
-                    fullVedio.setVisibility(View.GONE);
-                    video_tool_tbtnVR.setVisibility(View.VISIBLE);
-                    video_tool_tbtnGyro.setVisibility(View.VISIBLE);
-                    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);//横屏
-                    RelativeLayout.LayoutParams playParams = (RelativeLayout.LayoutParams) video_tool_rlPlayProg.getLayoutParams();
-                    playParams.addRule(RelativeLayout.LEFT_OF, R.id.video_tool_tbtnGyro);
-                    video_tool_rlPlayProg.setLayoutParams(playParams);
-                }
-            }
-        });
+        activity_rlToolbar=(RelativeLayout)findViewById(R.id.activity_rlToolbar);
+        video_back_btn=(ImageView)findViewById(R.id.activity_imgBack);
+
 
         // init VR Library
         mVRLibrary = createVRLibrary();
@@ -176,7 +155,8 @@ public abstract class MD360PlayerActivity extends Activity {
         hotspotPoints.add(findViewById(R.id.hotspot_point1));
         hotspotPoints.add(findViewById(R.id.hotspot_point2));
         mVRLibrary.switchDisplayMode(MD360PlayerActivity.this, 102);
-        video_tool_tbtnVR.setOnClickListener(new View.OnClickListener() {
+
+        video_tool_tbtnVR.setOnClickListener(new View.OnClickListener() {//全屏、分屏控制
             @Override
             public void onClick(View view) {
                 int key=1;
@@ -214,19 +194,8 @@ public abstract class MD360PlayerActivity extends Activity {
                 mVRLibrary.switchInteractiveMode(MD360PlayerActivity.this, key);
             }
         });
+        initVedioControl();
 
-
-
-        getVRLibrary().setEyePickChangedListener(new MDVRLibrary.IEyePickListener() {
-            @Override
-            public void onHotspotHit(IMDHotspot hotspot, long hitTimestamp) {
-                String text = hotspot == null ? "nop" : String.format(Locale.CHINESE, "%s  %fs", hotspot.getTitle(), (System.currentTimeMillis() - hitTimestamp) / 1000.0f );
-
-                if (System.currentTimeMillis() - hitTimestamp > 5000){
-                    getVRLibrary().resetEyePick();
-                }
-            }
-        });
     }
 
     abstract protected MDVRLibrary createVRLibrary();
@@ -299,29 +268,26 @@ public abstract class MD360PlayerActivity extends Activity {
         context.startActivity(intent);
     }
 
-    public boolean onKeyDown(int keyCode, KeyEvent event) { // 监听HOME和返回键
-        // TODO Auto-generated method stub
-        super.onKeyDown(keyCode, event);
-        switch (keyCode) {
-            case KeyEvent.KEYCODE_BACK:
-                LinearLayout.LayoutParams linearParams =  (LinearLayout.LayoutParams)vedio_view.getLayoutParams();
-                linearParams.height = vedio_view_height;
-                vedio_view.setLayoutParams(linearParams);
-                IsVertical=true;
-                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);//竖屏
-                video_tool_tbtnVR.setVisibility(View.GONE);
-                video_tool_tbtnGyro.setVisibility(View.GONE);
-                fullVedio = (ImageView)findViewById(R.id.video_tool_imgFullscreen);
-                fullVedio.setVisibility(View.VISIBLE);
-                RelativeLayout.LayoutParams playParams = (RelativeLayout.LayoutParams) video_tool_rlPlayProg.getLayoutParams();
-                playParams.addRule(RelativeLayout.LEFT_OF, R.id.video_tool_imgFullscreen);
-                video_tool_rlPlayProg.setLayoutParams(playParams);
-                return true;
-            case KeyEvent.KEYCODE_HOME:
-                break;
-            default:
-                break;
-        }
-        return false;
+
+
+    private void initVedioControl(){
+        View view = new HoverView(this);
+        view.setBackgroundColor(0x55FFCC11);
+        view.setBackgroundResource(R.drawable.video_toolbar_tb_play);
+        MDViewBuilder builder = MDViewBuilder.create()
+                .provider(view, 75/*view width*/, 50/*view height*/)
+                .size(3, 2)
+                .position(MDPosition.newInstance().setX(0.0f).setY(0.0f).setZ(-8.0f))
+                .title("md view")
+                .tag("tag-md-text-view")
+                ;
+        MDAbsView mdView = new MDView(builder);
+        mdView.rotateToCamera();
+        plugins.add(mdView);
+        getVRLibrary().addPlugin(mdView);
+
+
     }
+
+
 }

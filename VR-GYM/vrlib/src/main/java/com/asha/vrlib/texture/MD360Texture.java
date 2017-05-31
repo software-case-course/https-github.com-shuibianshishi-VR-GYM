@@ -14,6 +14,7 @@ public abstract class MD360Texture {
     private static final int TEXTURE_EMPTY = 0;
     private static final String TAG = "MD360Texture";
     private int mTextureId = TEXTURE_EMPTY;
+
     public MD360Texture() {
     }
 

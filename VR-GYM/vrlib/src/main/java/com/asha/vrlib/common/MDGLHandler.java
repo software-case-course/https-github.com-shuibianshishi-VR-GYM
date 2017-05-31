@@ -22,6 +22,7 @@ public class MDGLHandler {
     public MDGLHandler() {
     }
 
+    // main thread
     public void post(Runnable runnable){
         // destroyed ?
         if (died){
@@ -57,7 +58,7 @@ public class MDGLHandler {
         }
     }
 
-    public void destroy() {
+    public void markAsDestroy() {
         died = true;
     }
 }

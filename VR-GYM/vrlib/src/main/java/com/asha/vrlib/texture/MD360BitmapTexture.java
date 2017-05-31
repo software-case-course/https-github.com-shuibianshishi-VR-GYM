@@ -8,9 +8,8 @@ import com.asha.vrlib.MD360Program;
 import com.asha.vrlib.MDVRLibrary;
 import com.asha.vrlib.common.MDMainHandler;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.lang.ref.SoftReference;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 import static com.asha.vrlib.common.GLUtil.glCheck;
 import static com.asha.vrlib.common.VRUtil.notNull;
@@ -23,9 +22,9 @@ public class MD360BitmapTexture extends MD360Texture {
 
     private static final String TAG = "MD360BitmapTexture";
     private MDVRLibrary.IBitmapProvider mBitmapProvider;
-    private Map<String,AsyncCallback> mCallbackList = new HashMap<>();
     private boolean mIsReady;
-    private AsyncCallback callback;
+    private AsyncCallback mTmpAsyncCallback;
+    private AtomicBoolean mTextureDirty = new AtomicBoolean(false);
 
     public MD360BitmapTexture(MDVRLibrary.IBitmapProvider bitmapProvider) {
         this.mBitmapProvider = bitmapProvider;
@@ -35,33 +34,28 @@ public class MD360BitmapTexture extends MD360Texture {
     protected int createTextureId() {
         final int[] textureHandle = new int[1];
         GLES20.glGenTextures(1, textureHandle, 0);
-
         final int textureId = textureHandle[0];
-
-        callback = new AsyncCallback();
-
-        // save to thread local
-        mCallbackList.put(Thread.currentThread().toString(),callback);
 
         // call the provider
         // to load the bitmap.
-        MDMainHandler.sharedHandler().post(new Runnable() {
-            @Override
-            public void run() {
-                mBitmapProvider.onProvideBitmap(callback);
-            }
-        });
-
+        loadTexture();
         return textureId;
     }
 
+    // gl thread
     @Override
     public boolean texture(MD360Program program) {
-        AsyncCallback asyncCallback = mCallbackList.get(Thread.currentThread().toString());
+        if (mTextureDirty.get()){
+            loadTexture();
+            mTextureDirty.set(false);
+        }
+
+
+        AsyncCallback asyncCallback = mTmpAsyncCallback;
         int textureId = getCurrentTextureId();
         if (asyncCallback != null && asyncCallback.hasBitmap()){
             Bitmap bitmap = asyncCallback.getBitmap();
-            textureInThread(textureId,program,bitmap);
+            textureInThread(textureId, program, bitmap);
             asyncCallback.releaseBitmap();
             mIsReady = true;
         }
@@ -69,18 +63,35 @@ public class MD360BitmapTexture extends MD360Texture {
         if (isReady() && textureId != 0){
             GLES20.glActiveTexture(GLES20.GL_TEXTURE0);
             GLES20.glBindTexture(GLES20.GL_TEXTURE_2D, textureId);
-            GLES20.glUniform1i(program.getTextureUniformHandle(),0);
+            GLES20.glUniform1i(program.getTextureUniformHandle(), 0);
         }
         return true;
     }
 
     @Override
     public void notifyChanged() {
-        // nop
+        mTextureDirty.set(true);
+    }
+
+    // call from gl thread
+    private void loadTexture(){
+        // release the ref before
+        if (mTmpAsyncCallback != null){
+            mTmpAsyncCallback.releaseBitmap();
+            mTmpAsyncCallback = null;
+        }
+
+        // get texture max size.
+        int[] maxSize = new int[1];
+        GLES20.glGetIntegerv(GLES20.GL_MAX_TEXTURE_SIZE, maxSize, 0);
+
+        // create a new one
+        mTmpAsyncCallback = new AsyncCallback(maxSize[0]);
+
         MDMainHandler.sharedHandler().post(new Runnable() {
             @Override
             public void run() {
-                mBitmapProvider.onProvideBitmap(callback);
+                mBitmapProvider.onProvideBitmap(mTmpAsyncCallback);
             }
         });
     }
@@ -92,11 +103,11 @@ public class MD360BitmapTexture extends MD360Texture {
 
     @Override
     public void destroy() {
-        Collection<AsyncCallback> callbacks = mCallbackList.values();
-        for (AsyncCallback callback:callbacks){
-            callback.releaseBitmap();
+        // release the ref before
+        if (mTmpAsyncCallback != null){
+            mTmpAsyncCallback.releaseBitmap();
+            mTmpAsyncCallback = null;
         }
-        mCallbackList.clear();
     }
 
     @Override
@@ -104,7 +115,7 @@ public class MD360BitmapTexture extends MD360Texture {
     }
 
     private void textureInThread(int textureId, MD360Program program, Bitmap bitmap) {
-        notNull(bitmap,"bitmap can't be null!");
+        notNull(bitmap, "bitmap can't be null!");
 
         if (isEmpty(textureId)) return;
 
@@ -118,6 +129,8 @@ public class MD360BitmapTexture extends MD360Texture {
         // Set filtering
         GLES20.glTexParameteri(GLES20.GL_TEXTURE_2D, GLES20.GL_TEXTURE_MIN_FILTER, GLES20.GL_NEAREST);
         GLES20.glTexParameteri(GLES20.GL_TEXTURE_2D, GLES20.GL_TEXTURE_MAG_FILTER, GLES20.GL_NEAREST);
+        GLES20.glTexParameterf(GLES20.GL_TEXTURE_2D, GLES20.GL_TEXTURE_WRAP_S,GLES20.GL_CLAMP_TO_EDGE);
+        GLES20.glTexParameterf(GLES20.GL_TEXTURE_2D, GLES20.GL_TEXTURE_WRAP_T,GLES20.GL_CLAMP_TO_EDGE);
 
         // Load the bitmap into the bound texture.
         GLUtils.texImage2D(GLES20.GL_TEXTURE_2D, 0, bitmap, 0);
@@ -127,29 +140,43 @@ public class MD360BitmapTexture extends MD360Texture {
         glCheck("MD360BitmapTexture textureInThread");
     }
 
-    private static class AsyncCallback implements Callback{
-        private Bitmap bitmap;
+    private static class AsyncCallback implements Callback {
+        private SoftReference<Bitmap> bitmapRef;
+
+        private int maxSize;
+
+        public AsyncCallback(int maxSize) {
+            this.maxSize = maxSize;
+        }
 
         @Override
         public void texture(Bitmap bitmap) {
-            this.bitmap = bitmap.copy(bitmap.getConfig(),true);
+            this.bitmapRef = new SoftReference<>(bitmap);
+        }
+
+        @Override
+        public int getMaxTextureSize() {
+            return maxSize;
         }
 
         public Bitmap getBitmap(){
-            return bitmap;
+            return bitmapRef != null ? bitmapRef.get() : null;
         }
 
         public boolean hasBitmap(){
-            return bitmap != null;
+            return  bitmapRef != null && bitmapRef.get() != null;
         }
 
-        synchronized public void releaseBitmap(){
-            if (bitmap != null && !bitmap.isRecycled()) bitmap.recycle();
-            bitmap = null;
+        public void releaseBitmap(){
+            if (bitmapRef != null){
+                bitmapRef.clear();
+            }
+            bitmapRef = null;
         }
     }
 
     public interface Callback {
         void texture(Bitmap bitmap);
+        int getMaxTextureSize();
     }
 }

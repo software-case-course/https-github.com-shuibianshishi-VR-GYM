@@ -18,6 +18,8 @@ public class MD360Program {
     private int mPositionHandle;
     private int mTextureCoordinateHandle;
     private int mProgramHandle;
+    private int mSTMatrixHandle;
+    private int mUseTextureTransformHandle;
     private int mContentType;
 
     public MD360Program(int type) {
@@ -49,6 +51,8 @@ public class MD360Program {
         mTextureUniformHandle = GLES20.glGetUniformLocation(mProgramHandle, "u_Texture");
         mPositionHandle = GLES20.glGetAttribLocation(mProgramHandle, "a_Position");
         mTextureCoordinateHandle = GLES20.glGetAttribLocation(mProgramHandle, "a_TexCoordinate");
+        mSTMatrixHandle = GLES20.glGetUniformLocation(mProgramHandle, "u_STMatrix");
+        mUseTextureTransformHandle = GLES20.glGetUniformLocation(mProgramHandle, "u_UseSTM");
     }
 
     protected String getVertexShader(Context context){
@@ -79,17 +83,28 @@ public class MD360Program {
         return mPositionHandle;
     }
 
+    public int getSTMatrixHandle() {
+        return mSTMatrixHandle;
+    }
+
+    public int getUseTextureTransformHandle() {
+        return mUseTextureTransformHandle;
+    }
+
     public int getTextureCoordinateHandle() {
         return mTextureCoordinateHandle;
     }
 
-    private static class FragmentShaderFactory{
+    private static class FragmentShaderFactory {
 
         static String fs(Context context, int type){
             int resId;
             switch (type){
                 case MDVRLibrary.ContentType.BITMAP:
                     resId = R.raw.per_pixel_fragment_shader_bitmap;
+                    break;
+                case MDVRLibrary.ContentType.FBO:
+                    resId = R.raw.per_pixel_fragment_shader_bitmap_fbo;
                     break;
                 case MDVRLibrary.ContentType.VIDEO:
                 default:

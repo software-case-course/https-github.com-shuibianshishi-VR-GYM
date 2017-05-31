@@ -31,9 +31,12 @@ public class GLUtil {
     public static final float[] sIdentityMatrix = new float[16];
 
     static {
-        Matrix.setIdentityM(sIdentityMatrix,0);
+        Matrix.setIdentityM(sIdentityMatrix, 0);
     }
 
+    public static float[] identityMatrix() {
+        return sIdentityMatrix;
+    }
 
     /**
      * Check if the system supports OpenGL ES 2.0.

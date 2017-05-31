@@ -8,14 +8,18 @@ import com.asha.vrlib.MD360DirectorFactory;
 import com.asha.vrlib.MDVRLibrary;
 import com.asha.vrlib.common.MDDirection;
 import com.asha.vrlib.common.MDGLHandler;
+import com.asha.vrlib.model.MDDirectorBrief;
 import com.asha.vrlib.model.MDMainPluginBuilder;
 import com.asha.vrlib.model.MDPosition;
 import com.asha.vrlib.objects.MDAbsObject3D;
 import com.asha.vrlib.plugins.MDAbsPlugin;
+import com.asha.vrlib.plugins.MDPluginAdapter;
 import com.asha.vrlib.strategy.ModeManager;
 
 import java.util.LinkedList;
 import java.util.List;
+
+import static com.asha.vrlib.common.VRUtil.checkGLThread;
 
 /**
  * Created by hzqiujiadi on 16/6/25.
@@ -32,8 +36,6 @@ public class ProjectionModeManager extends ModeManager<AbsProjectionStrategy> im
         public IMDProjectionFactory projectionFactory;
     }
 
-    private List<MD360Director> mDirectors = new LinkedList<>();
-
     private RectF mTextureSize;
 
     private MD360DirectorFactory mCustomDirectorFactory;
@@ -44,13 +46,29 @@ public class ProjectionModeManager extends ModeManager<AbsProjectionStrategy> im
 
     private IMDProjectionFactory mProjectionFactory;
 
+    private final List<MD360Director> mDirectors;
+
+    private final MDDirectorBrief mDirectorBrief;
+
+    private final MDAbsPlugin mDirectorUpdatePlugin;
+
     public ProjectionModeManager(int mode, MDGLHandler handler, Params projectionManagerParams) {
         super(mode, handler);
+        this.mDirectors = new LinkedList<>();
         this.mTextureSize = projectionManagerParams.textureSize;
         this.mCustomDirectorFactory = projectionManagerParams.directorFactory;
         this.mProjectionFactory = projectionManagerParams.projectionFactory;
         this.mMainPluginBuilder = projectionManagerParams.mainPluginBuilder;
         this.mMainPluginBuilder.setProjectionModeManager(this);
+        this.mDirectorBrief = new MDDirectorBrief();
+        this.mDirectorUpdatePlugin = new MDPluginAdapter(){
+            @Override
+            public void beforeRenderer(int totalWidth, int totalHeight) {
+                if (mDirectors.size() > 0){
+                    mDirectorBrief.make(mDirectors.get(0).getViewQuaternion());
+                }
+            }
+        };
     }
 
     public MDAbsPlugin getMainPlugin() {
@@ -71,7 +89,7 @@ public class ProjectionModeManager extends ModeManager<AbsProjectionStrategy> im
 
         // destroy prev main plugin
         if( mMainPlugin != null){
-            mMainPlugin.destroy();
+            getGLHandler().post(new PluginDestroyTask(mMainPlugin));
             mMainPlugin = null;
         }
 
@@ -137,5 +155,30 @@ public class ProjectionModeManager extends ModeManager<AbsProjectionStrategy> im
 
     public List<MD360Director> getDirectors() {
         return mDirectors;
+    }
+
+    public MDDirectorBrief getDirectorBrief() {
+        return mDirectorBrief;
+    }
+
+    public MDAbsPlugin getDirectorUpdatePlugin() {
+        return mDirectorUpdatePlugin;
+    }
+
+    private static class PluginDestroyTask implements Runnable {
+
+        private MDAbsPlugin plugin;
+
+        public PluginDestroyTask(MDAbsPlugin plugin) {
+            this.plugin = plugin;
+        }
+
+        @Override
+        public void run() {
+            checkGLThread("must call in gl thread");
+
+            plugin.destroyInGL();
+            plugin = null;
+        }
     }
 }

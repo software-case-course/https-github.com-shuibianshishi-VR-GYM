@@ -32,6 +32,8 @@ public class MotionStrategy extends AbsInteractiveStrategy implements SensorEven
 
     private final Object mMatrixLock = new Object();
 
+    private boolean isOn;
+
     public MotionStrategy(InteractiveModeManager.Params params) {
         super(params);
     }
@@ -57,7 +59,8 @@ public class MotionStrategy extends AbsInteractiveStrategy implements SensorEven
     }
 
     @Override
-    public void on(Activity activity) {
+    public void turnOnInGL(Activity activity) {
+        isOn = true;
         mDeviceRotation = activity.getWindowManager().getDefaultDisplay().getRotation();
         for (MD360Director director : getDirectorList()){
             director.reset();
@@ -65,8 +68,14 @@ public class MotionStrategy extends AbsInteractiveStrategy implements SensorEven
     }
 
     @Override
-    public void off(Activity activity) {
-        unregisterSensor(activity);
+    public void turnOffInGL(final Activity activity) {
+        isOn = false;
+        activity.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                unregisterSensor(activity);
+            }
+        });
     }
 
     @Override
@@ -109,7 +118,7 @@ public class MotionStrategy extends AbsInteractiveStrategy implements SensorEven
 
     @Override
     public void onSensorChanged(final SensorEvent event) {
-        if (event.accuracy != 0){
+        if (isOn && event.accuracy != 0){
             if (getParams().mSensorListener != null){
                 getParams().mSensorListener.onSensorChanged(event);
             }
@@ -133,7 +142,7 @@ public class MotionStrategy extends AbsInteractiveStrategy implements SensorEven
     private Runnable updateSensorRunnable = new Runnable() {
         @Override
         public void run() {
-            if (!mRegistered) return;
+            if (!mRegistered || !isOn) return;
             // mTmpMatrix will be used in multi thread.
             synchronized (mMatrixLock){
                 for (MD360Director director : getDirectorList()){

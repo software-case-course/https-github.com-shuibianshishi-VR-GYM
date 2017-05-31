@@ -2,6 +2,8 @@ package com.asha.md360player4android;
 
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.graphics.SurfaceTexture;
+import android.util.Log;
 import android.view.Surface;
 
 import java.io.IOException;
@@ -18,9 +20,11 @@ import tv.danmaku.ijk.media.player.misc.IMediaDataSource;
  * http://developer.android.com/intl/zh-cn/reference/android/media/MediaPlayer.html
  * status
  */
-public class MediaPlayerWrapper implements IMediaPlayer.OnPreparedListener {
+
+public class MediaPlayerWrapper implements SurfaceTexture.OnFrameAvailableListener,IMediaPlayer.OnPreparedListener {
     protected IMediaPlayer mPlayer;
     private IjkMediaPlayer.OnPreparedListener mPreparedListener;
+    private SurfaceTexture mSurfaceTexture;
     private static final int STATUS_IDLE = 0;
     private static final int STATUS_PREPARING = 1;
     private static final int STATUS_PREPARED = 2;
@@ -31,6 +35,18 @@ public class MediaPlayerWrapper implements IMediaPlayer.OnPreparedListener {
     private Surface mSurface;
     private IjkMediaPlayer player;
     private float speed;
+
+    private PlayerCallback playerCallback;
+
+    public interface PlayerCallback{
+        void updateProgress();
+        void updateInfo();
+        void requestFinish();
+    }
+
+    public void setPlayerCallback(PlayerCallback playerCallback) {
+        this.playerCallback = playerCallback;
+    }
 
 
     public void init(){
@@ -130,7 +146,7 @@ public class MediaPlayerWrapper implements IMediaPlayer.OnPreparedListener {
         }
     }
 
-    private void start(){
+    public void start(){
         if (mPlayer == null) return;
         if (mStatus == STATUS_PREPARED || mStatus == STATUS_PAUSED){
             mPlayer.start();
@@ -174,4 +190,11 @@ public class MediaPlayerWrapper implements IMediaPlayer.OnPreparedListener {
         }
     }
 
+    @Override
+    public void onFrameAvailable(SurfaceTexture surfaceTexture) {
+        Log.v("timeaaaaa","1");
+        if (playerCallback!=null){
+            playerCallback.updateProgress();
+        }
+    }
 }
