@@ -1,4 +1,7 @@
-#Thu Jun 01 01:55:43 CST 2017
-base.0=D\:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Wed Jun 21 10:21:25 CST 2017
+base.0=E\:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_64c763b3c692b712832504a73ae10bc6159ed2d8
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=D\:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.1=E\:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5140d03b83ce36847d75a86356c502a34e33562d\\classes.dex
+base.1=E\:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5140d03b83ce36847d75a86356c502a34e33562d
+file.0=E\:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_64c763b3c692b712832504a73ae10bc6159ed2d8\\classes.dex

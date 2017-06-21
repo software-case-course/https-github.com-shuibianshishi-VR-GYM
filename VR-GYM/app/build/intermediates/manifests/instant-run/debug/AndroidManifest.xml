@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="22" />
+        android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -24,6 +24,7 @@
     <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
 
     <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -44,11 +45,6 @@
             android:name="com.asha.md360player4android.VideoPlayerActivity"
             android:configChanges="screenSize|orientation"
             android:label="VideoPlayerActivity" />
-
-        <provider
-            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
-            android:authorities="com.asha.md360player4android.com.android.tools.fd.runtime.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

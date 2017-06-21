@@ -2,175 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\gson-2.6.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="dd625f5e7bba8235782b5dc4244c3fd26953190f">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\gson-2.6.2_55143b50df4df34668b3d54fd459a55ee5fae3a5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-armv7a\0.6.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="883eb9c3bde63636505e42fc6cad790f4739b0d3">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\tv.danmaku.ijk.media-ijkplayer-armv7a-0.6.0_89abd112680090330cfffb6c48c8881f5a43fea7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxandroid-1.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxandroid-1.2.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="19beef6debb6a22febc28777464c71bfccbafe3d">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\rxandroid-1.2.0_91d8d4bea1c080a273105f17c2e276cbac67de4b.jar" />
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-1.2.0_74661dc2371d4b4d5f2112d772029760e82107c6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_7564818f4c570fed127d910e8fe7644e776fcbc1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="292a9fa091757208efa65e77eef63088247e51f3">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_4d858251cc920cc17e6f26bd976fe1be501e3024.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\.gradle\caches\modules-2\files-2.1\cn.bmob.android\bmob-sms\1.0.1\df9db564e2842696a68deca39b0186aebf3dc07c\bmob-sms-1.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="df9db564e2842696a68deca39b0186aebf3dc07c">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\bmob-sms-1.0.1_3342e2fb3e528c36ee384ac0c88684537b110e0d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_970cce7d2f346bdc05a1ca434ae242b577936e4f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6e239441500605809818997dd63b62a947195f8c">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_3da8ff714fe3b2a44b8aef2e5c2ea0d0d846f84d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_4275c95ea57aaa52d2d7ba38a3213b06ac48dd46.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okio-1.7.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okio-1.7.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="bbeca71da43c8f4bc9ceedec002060f53437ad26">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\okio-1.7.0_9fe747326a0d7795ae0a789998ebec16d8e46103.jar" />
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.7.0_9c2032dbf3f496bcc301b6b4546a1e1ead134f68\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxjava-1.1.6.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\kg\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="ac615240b277e7fd3950d7b35f73b733f310cede">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_45d9553711ea0d0685cf6d777888c9d4d8389f98.jar" />
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_61e7efdc2c7a2376caaebbe8bed0316f4f5c9183\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="E:\AndroidBackbround\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_4b74c538e5e5c2b5d19875e24d253d1f0bb0b43c.jar" />
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_aa71813d7c3d7c5dc5e700f4fbbbf0ef0b457452\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_f2bf4c96300a2d0104f53e1814150878c1528834.jar" />
+        sha1="0177d87cbe7f7e7e11e9d3046d6b49582e2510b2">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_64c763b3c692b712832504a73ae10bc6159ed2d8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\.gradle\caches\modules-2\files-2.1\cn.bmob.android\bmob-push\0.8\2fe391ed9034cd023de1da05cb8da77e08b46245\bmob-push-0.8.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="2fe391ed9034cd023de1da05cb8da77e08b46245">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\bmob-push-0.8_339fbb1c3b9147b71332fc32b7d79794e4a8680a.jar" />
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_d12aff028561f1ae5bfc299008100f3ebba98178\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-java\0.6.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\kg\.gradle\caches\modules-2\files-2.1\cn.bmob.android\bmob-sms\1.0.1\df9db564e2842696a68deca39b0186aebf3dc07c\bmob-sms-1.0.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="a13789ec9e884e49740bb970550fabcb340466c1">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\tv.danmaku.ijk.media-ijkplayer-java-0.6.0_06d57023fa7fcefe2fd6aed26135ed6bfee9c765.jar" />
+        sha1="df9db564e2842696a68deca39b0186aebf3dc07c">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\bmob-sms-1.0.1_77d922cb2bf62a127fa93842c79fe7817baad0e4\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e47f10299673ab68f24c595f96b18086cc9a8384">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\cn.bmob.android-bmob-sdk-3.5.0_287135b0e31f5cbe0dd10bf38448372a6416ba72.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\BmobSDK_3.5.0_20160630.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8eb5c605a02f792e326c5ac8e4feb2c18dd171ad">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\BmobSDK_3.5.0_20160630_3771f010fd3808edbc066081d14b00f449e5cfab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\VR-GYM\vrlib\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="081ce6cca5e9d2fa167b07bcf1478db1d199daca">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\VR-GYM-vrlib-unspecified_500f4a1961a145eca3e090853d8edc6f636822fc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okhttp-3.3.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okhttp-3.3.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="e7cb33d9f82d3b8521c6594b180f4dd9fc6d49f2">
-        <dex dex="D:\Users\ZHENGYU\Desktop\VR-GYM\app\build\intermediates\pre-dexed\debug\okhttp-3.3.1_8102c6f13ebaa4db7574c0b6709bff858bd863f7.jar" />
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_c2277135a0e8dd0d147e54b64679d60161147fab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_779c726da3de635f6189831f88baebb06a6e66e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kg\.gradle\caches\modules-2\files-2.1\cn.bmob.android\bmob-push\0.8\2fe391ed9034cd023de1da05cb8da77e08b46245\bmob-push-0.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2fe391ed9034cd023de1da05cb8da77e08b46245">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\bmob-push-0.8_06e4274ebde92da29c4d2b0ae4275a5ffbdd8190\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_8668cf3e2b22f78a38821c80bf745d79c9e18966\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ac615240b277e7fd3950d7b35f73b733f310cede">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_8d72d1a147f53781e941b991504b02cae26f6427\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-armv7a\0.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="883eb9c3bde63636505e42fc6cad790f4739b0d3">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\tv.danmaku.ijk.media-ijkplayer-armv7a-0.6.0_23320faecdb4527c9156cd8e86f90cd50b54622c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\BmobSDK_3.5.0_20160630.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8eb5c605a02f792e326c5ac8e4feb2c18dd171ad">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\BmobSDK_3.5.0_20160630_21c538598b42e0bfe049269d338413453bc6eec5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dd625f5e7bba8235782b5dc4244c3fd26953190f">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_1bf4bf9f08e8be39b616589ab04dd47b58385c34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_0fb95488fcd74534708f859fc52417d41c1794b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f1c8b77437fba13744973cef293240e02737a143">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5140d03b83ce36847d75a86356c502a34e33562d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodsdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_2772d1e844bb7d33c7ece87174372a8ed8253a02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e47f10299673ab68f24c595f96b18086cc9a8384">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bmob.android-bmob-sdk-3.5.0_c23f03189d1ddb49f3650e44d4ce2c796ff0add9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-java\0.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a13789ec9e884e49740bb970550fabcb340466c1">
+        <dex dex="E:\study\android\andriodcode\https-github.com-shuibianshishi-VR-GYM\VR-GYM\app\build\intermediates\transforms\dex\debug\folders\1000\10\tv.danmaku.ijk.media-ijkplayer-java-0.6.0_ffad0baeafb55482b9fed8fa7b18b476c5c06d6b\classes.dex" />
     </item>
 
 </items>

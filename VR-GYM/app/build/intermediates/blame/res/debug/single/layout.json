@@ -1,258 +1,258 @@
 [
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewitem.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\viewitem.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\channel.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\channel.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\activity_demo.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ijkdemo.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\activity_ijkdemo.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\activity_download.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\channel_item.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\channel_item.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bmob_update_dialog.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\cn.bmob.android\\bmob-sdk\\3.5.0\\res\\layout\\bmob_update_dialog.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\activity_download.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_list_item.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\setting_list_item.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_share.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\popupwindow_share.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\listview.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_view.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demotwo.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\activity_demotwo.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\downloadvedio.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\downloadvedio.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_view.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\head_view.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\downloadvedio_item.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\downloadvedio_item.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewitem.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\viewitem.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\simple_spinner_item.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_pager.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\activity_view_pager.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\gridview.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vedio.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\vedio.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ijkdemo.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\activity_ijkdemo.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_action.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_list_item.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\setting_list_item.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sign_in.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vedio_message.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\vedio_message.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_history.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\search_history.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bmob_update_dialog.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\cn.bmob.android\\bmob-sdk\\3.5.0\\res\\layout\\bmob_update_dialog.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demotwo.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\activity_demotwo.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_view.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\main_view.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listviewitem.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\listviewitem.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_md_using_surface_view.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\activity_md_using_surface_view.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_view.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\main_view.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_md_using_surface_view.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\activity_md_using_surface_view.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vedio_message.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\vedio_message.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\channel_item.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\channel_item.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_pager.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\activity_view_pager.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vedio.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\vedio.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\downloadvedio_item.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\downloadvedio_item.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\headcycleviewpager.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\headcycleviewpager.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_play_tools.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\video_play_tools.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\simple_spinner_item.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\downloadvedio.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\downloadvedio.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listviewitem.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\listviewitem.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_share.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\popupwindow_share.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\channel.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\channel.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_view.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\head_view.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_media.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\listview.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\activity_demo.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sign_in.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\gridview.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_history.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\search_history.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\headcycleviewpager.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\src\\main\\res\\layout\\headcycleviewpager.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_play_tools.xml",
-        "source": "D:\\Users\\ZHENGYU\\Desktop\\VR-GYM\\app\\src\\main\\res\\layout\\video_play_tools.xml"
+        "merged": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\study\\android\\andriodcode\\https-github.com-shuibianshishi-VR-GYM\\VR-GYM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     }
 ]
