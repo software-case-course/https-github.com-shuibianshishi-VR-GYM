@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#292b2a"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_shape">
+
+        <ImageButton
+            android:id="@+id/btn_Running"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_shape"
+            android:scaleType="fitXY"
+            android:src="@mipmap/run" />
+
+        <ImageButton
+            android:id="@+id/btn_Dumbbell"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_shape"
+            android:scaleType="fitXY"
+
+            android:src="@mipmap/dumbbell" />
+
+        <ImageButton
+            android:id="@+id/btn_squat"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_shape"
+
+            android:scaleType="fitXY"
+            android:src="@mipmap/squat" />
+        <ImageButton
+            android:id="@+id/btn_boat"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_shape"
+
+            android:scaleType="fitXY"
+            android:src="@mipmap/boating" />
+
+        <ImageButton
+            android:id="@+id/btn_Add"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_shape"
+
+            android:scaleType="fitXY"
+            android:src="@mipmap/add" />
+
+    </FrameLayout>
+</LinearLayout>
