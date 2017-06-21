@@ -13,6 +13,13 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <!--允许读取手机状态 用于创建BmobInstallation-->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -29,6 +36,10 @@
         <activity android:name=".SensorActivity">
 
         </activity>
+
+        <activity android:name=".BlueSendInfoActivity">
+        </activity>
+        <activity android:name=".BlueAcceptInfoActivity"></activity>
     </application>
 
 </manifest>

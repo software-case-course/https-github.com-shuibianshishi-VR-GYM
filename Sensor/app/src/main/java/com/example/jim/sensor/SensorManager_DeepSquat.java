@@ -6,6 +6,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.util.Log;
+import android.widget.Toast;
 
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.UpdateListener;
@@ -104,7 +105,16 @@ public class SensorManager_DeepSquat implements SensorEventListener {
         if (sign == 1 && Math.toDegrees(values[1]) > -20) {
             sign = 0;
             count_deepsquat = count_deepsquat + 1;
+            SenserUtil.gobalCount = count_deepsquat;
             Log.d("次数：", count_deepsquat + "次");
+            Toast.makeText(context,"deepsquat次数为："+count_deepsquat+"次 ",Toast.LENGTH_SHORT).show();
+
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    SenserUtil.WriteSportMessage("deepsquat次数为");
+                }
+            }).start();
             if (MainActivity.SPORT_TYPE == 3) {
                 update_count();
             } else stop();

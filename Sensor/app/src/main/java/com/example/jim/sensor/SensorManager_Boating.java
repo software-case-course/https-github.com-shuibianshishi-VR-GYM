@@ -6,6 +6,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.util.Log;
+import android.widget.Toast;
 
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.UpdateListener;
@@ -104,7 +105,16 @@ public class SensorManager_Boating implements SensorEventListener {
             if (MainActivity.SPORT_TYPE==4){
             update_count();}
             else stop();
+            SenserUtil.gobalCount = count_boat;
             Log.d("boat次数为：", count_boat+"次 ");
+            Toast.makeText(context,"boat次数为："+count_boat+"次 ",Toast.LENGTH_SHORT).show();
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    SenserUtil.WriteSportMessage("boat次数为");
+                }
+            }).start();
+
         }
         // TODO Auto-generated method stub
     }

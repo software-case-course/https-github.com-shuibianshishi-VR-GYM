@@ -2,6 +2,7 @@ package com.example.jim.sensor;
 
 import android.animation.ObjectAnimator;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.BounceInterpolator;
@@ -18,7 +19,7 @@ import cn.bmob.v3.listener.UpdateListener;
 
 public class MainActivity extends Activity implements View.OnClickListener{
 
-    private int[] res = {R.id.btn_squat,R.id.btn_Running,R.id.btn_Dumbbell,R.id.btn_boat,R.id.btn_Add};
+    private int[] res = {R.id.btn_squat,R.id.btn_Running,R.id.btn_Dumbbell,R.id.btn_boat,R.id.blue_tooth_match,R.id.mark_count,R.id.btn_Add};
     private List<ImageButton> buttonList = new ArrayList<ImageButton>();
     private boolean flag;
     private ImageButton btn=null;
@@ -31,7 +32,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         setContentView(R.layout.activity_main);
         Bmob.initialize(this, "80c583efe08701c08a2c323302339220");
         for (int i = 0; i < res.length; i++){
-            if (i==4){
+            if (i==6){
                 btn=(ImageButton) findViewById(res[i]);
                 btn.setOnClickListener(this);
                 buttonList.add(btn);
@@ -81,6 +82,15 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 boat();
                 Toast.makeText(MainActivity.this, "开始划船体验，请开始划船动作", Toast.LENGTH_SHORT).show();
                 break;
+            case R.id.blue_tooth_match:
+                Intent intent = new Intent(MainActivity.this,BlueSendInfoActivity.class);
+                startActivity(intent);
+
+                break;
+            case R.id.mark_count:
+                Intent intent1 = new Intent(MainActivity.this,BlueAcceptInfoActivity.class);
+                startActivity(intent1);
+                break;
 
             default:
                 break;
@@ -94,7 +104,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
             animator.setDuration(i*500);
             animator.setInterpolator(new BounceInterpolator());
             animator.start();
-            if (i==4){
+            if (i==6){
                 btn=buttonList.get(i);
                 btn.setImageResource(R.mipmap.minus);
             }

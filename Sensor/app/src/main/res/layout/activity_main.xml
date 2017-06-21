@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/btn_shape">
 
         <ImageButton
@@ -49,13 +49,32 @@
             android:src="@mipmap/boating" />
 
         <ImageButton
+            android:id="@+id/blue_tooth_match"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_shape"
+            android:scaleType="fitXY"
+            android:src="@mipmap/blue_blue" />
+
+        <ImageButton
+            android:id="@+id/mark_count"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_shape"
+            android:scaleType="fitXY"
+            android:src="@mipmap/mark_mark" />
+
+        <ImageButton
             android:id="@+id/btn_Add"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:background="@drawable/btn_shape"
-
             android:scaleType="fitXY"
             android:src="@mipmap/add" />
 
+
+
     </FrameLayout>
+
+
 </LinearLayout>

@@ -6,6 +6,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.util.Log;
+import android.widget.Toast;
 
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.UpdateListener;
@@ -109,6 +110,15 @@ public class SensorManager_Running implements SensorEventListener {
             update_count();}
             else stop();
             Log.d("次数为：", count_run+"次 ");
+            Toast.makeText(context,"run次数为："+count_run+"次 ",Toast.LENGTH_SHORT).show();
+            SenserUtil.gobalCount = count_run;
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    SenserUtil.WriteSportMessage("run次数为");
+
+                }
+            }).start();
         }
         // TODO Auto-generated method stub
 //        // 现在检测时间

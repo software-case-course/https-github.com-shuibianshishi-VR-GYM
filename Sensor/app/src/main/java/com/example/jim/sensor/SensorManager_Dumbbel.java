@@ -6,6 +6,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.util.Log;
+import android.widget.Toast;
 
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.UpdateListener;
@@ -113,9 +114,17 @@ public class SensorManager_Dumbbel implements SensorEventListener {
             update_count();}
             else stop();
             Log.d("次数：", count_dumbbel + "次");
+
+            Toast.makeText(context,"dumbbel次数为："+count_dumbbel+"次 ",Toast.LENGTH_SHORT).show();
+            SenserUtil.gobalCount = count_dumbbel;
             // Log.d("SensorActivity", "sign: "+sign+"count"+count+Math.toDegrees(values[1]));
             // Toast.makeText(context,count,Toast.LENGTH_SHORT).show();
-
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    SenserUtil.WriteSportMessage("dumbbel次数为");
+                }
+            }).start();
         }
     }
     public void update_count(){
